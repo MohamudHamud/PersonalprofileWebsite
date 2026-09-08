@@ -11732,3 +11732,115 @@ html {
     left: -2vw;
   }
 }
+/*!
+ * ==========================================================================
+ * Custom additions - Skills & Documents
+ * ==========================================================================
+ */
+
+/* --- Animated skill bars --- */
+.skill-item {
+  margin-bottom: 1.25rem;
+}
+.skill-item:last-child {
+  margin-bottom: 0;
+}
+.skill-item .skill-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.skill-item .skill-head .skill-pct {
+  color: #6c757d;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.skill-track {
+  height: 0.55rem;
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.skill-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: 1rem;
+  background-image: linear-gradient(135deg, var(--bs-primary) 0%, var(--bs-secondary) 100%);
+  transition: width 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* --- Document cards --- */
+.doc-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.doc-card:hover {
+  transform: translateY(-4px);
+}
+.doc-card .doc-icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  border-radius: 0.9rem;
+  flex-shrink: 0;
+}
+.doc-preview-frame {
+  width: 100%;
+  height: 75vh;
+  min-height: 420px;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+}
+.doc-missing {
+  border: 1px dashed #ced4da;
+  border-radius: 0.5rem;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: #6c757d;
+}
+
+/* --- Project cards --- */
+.project-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.15) !important;
+}
+.project-media {
+  overflow: hidden;
+  background-color: #eef0ff;
+}
+.project-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.project-card:hover .project-media img {
+  transform: scale(1.06);
+}
+.project-index {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: var(--bs-secondary);
+}
+.tech-badge {
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+}
+@media (min-width: 992px) {
+  .project-media {
+    min-height: 360px;
+  }
+}

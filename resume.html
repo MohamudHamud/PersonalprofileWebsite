@@ -29,6 +29,7 @@
                             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="documents.html">Documents</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -47,7 +48,7 @@
                                 <h2 class="text-primary fw-bolder mb-0">Experience</h2>
                                 <!-- Download resume button-->
                                 <!-- Note: Set the link href target to a PDF file within your project-->
-                                <a class="btn btn-primary px-4 py-3" href="#!">
+                                <a class="btn btn-primary px-4 py-3" href="docs/cv.pdf" download>
                                     <div class="d-inline-block bi bi-download me-2"></div>
                                     Download Resume
                                 </a>
@@ -149,41 +150,98 @@
                         <div class="pb-5"></div>
                         <!-- Skills Section-->
                         <section>
+                            <div class="text-center mb-4">
+                                <h2 class="text-primary fw-bolder mb-0">Skills</h2>
+                            </div>
                             <!-- Skillset Card-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
-                                    <!-- Professional skills list-->
+                                    <!-- Technical skills with proficiency bars-->
+                                    <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Technical Skills</span></h3>
+                                        </div>
+                                        <div class="row gx-5">
+                                            <div class="col-lg-6">
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>JavaScript</span><span class="skill-pct">85%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="85"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>HTML &amp; CSS</span><span class="skill-pct">90%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="90"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>Python</span><span class="skill-pct">80%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="80"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>Node.js &amp; Express</span><span class="skill-pct">75%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="75"></span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>React</span><span class="skill-pct">70%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="70"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>MySQL / Databases</span><span class="skill-pct">72%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="72"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>Git &amp; GitHub</span><span class="skill-pct">82%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="82"></span></div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <div class="skill-head"><span>REST APIs</span><span class="skill-pct">75%</span></div>
+                                                    <div class="skill-track"><span class="skill-fill" data-width="75"></span></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Tools & frameworks-->
                                     <div class="mb-5">
                                         <div class="d-flex align-items-center mb-4">
                                             <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Tools &amp; Frameworks</span></h3>
                                         </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Communication Skills</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Team Leader </div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+                                        <div class="d-flex flex-wrap gap-2">
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Bootstrap</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Linux</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">VS Code</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Figma</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Adobe Suite</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Docker (basic)</span>
+                                            <span class="badge bg-light text-dark rounded-pill px-3 py-2">Postman</span>
                                         </div>
                                     </div>
-                                    <!-- Languages list-->
+                                    <!-- Professional / soft skills-->
+                                    <div class="mb-5">
+                                        <div class="d-flex align-items-center mb-4">
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-person-badge"></i></div>
+                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional Skills</span></h3>
+                                        </div>
+                                        <div class="row row-cols-1 row-cols-md-2 g-3">
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>Communication</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>Team Leadership</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>Problem Solving</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>Project Management</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>UI / UX Design</div></div>
+                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100"><i class="bi bi-check-circle-fill text-primary me-2"></i>Network Security</div></div>
+                                        </div>
+                                    </div>
+                                    <!-- Spoken languages-->
                                     <div class="mb-0">
                                         <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-code-slash"></i></div>
+                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-translate"></i></div>
                                             <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
                                         </div>
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">HTML</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">CSS</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">JavaScript</div></div>
-                                        </div>
-                                        <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">My SQl</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div></div>
+                                        <div class="row row-cols-1 row-cols-md-3 g-3">
+                                            <div class="col"><div class="bg-light rounded-4 p-3 h-100"><div class="fw-bolder">Somali</div><div class="small text-muted">Native</div></div></div>
+                                            <div class="col"><div class="bg-light rounded-4 p-3 h-100"><div class="fw-bolder">English</div><div class="small text-muted">Fluent</div></div></div>
+                                            <div class="col"><div class="bg-light rounded-4 p-3 h-100"><div class="fw-bolder">Amharic</div><div class="small text-muted">Working proficiency</div></div></div>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +255,7 @@
         <footer class="bg-white py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; My Website 2024</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; My Website <span id="currentYear">2024</span></div></div>
                     <div class="col-auto">
                         <a class="small" href="#!">Privacy</a>
                         <span class="mx-1">&middot;</span>
