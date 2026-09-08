@@ -8,6 +8,8 @@ preview + download button. Current mapping:
 | `cv.pdf`                               | Curriculum Vitae (CV)            | identified          |
 | `bsc-software-engineering-degree.pdf`  | BSc Software Engineering degree  | identified          |
 | `international-youth-conference.pdf`   | International Youth Conference   | identified          |
+| `google-advanced-data-analytics.pdf`  | Google Advanced Data Analytics (Coursera) | identified  |
+| `google-data-analytics.pdf`           | Google Data Analytics (Coursera) | identified         |
 | `certificate-1.pdf`                    | Certificate 1                    | title to confirm    |
 | `certificate-2.pdf`                    | Certificate 2                    | title to confirm    |
 | `certificate-3.pdf`                    | Certificate 3                    | title to confirm    |
